@@ -1,0 +1,60 @@
+body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.container{
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+
+}
+
+
+.input input{
+
+      padding: 5px;
+}
+.btn{
+      padding: 8px 10px;
+      background-color: rgb(84, 29, 185);
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      color: white;
+}
+
+
+.delete{
+      background-color: tomato;
+      border-radius: 0;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+}
+.main-container{
+      padding: 10px 0;
+      margin: 20px 0;
+}
+
+.task{
+      background-color: rgba(229, 202, 202, 0.666);
+      
+      margin: 5px 0;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.complete{
+      background-color: aquamarine;
+}
+.task span{
+      margin: 0 5px;
+}
+
+.footer{
+      margin: 20px 0;
+}

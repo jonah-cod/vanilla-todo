@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            body{
+                  background-image: linear-gradient(aqua, rgb(10, 76, 130));
+                  min-height: 100vh;
+            }
+      </style>
+      <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+      <div class="container">
+            <div class="top-title">
+                  <h2>Todo</h2>
+                  <div class="input">
+                        <input type="text" id="add_task" placeholder="add a task" >
+                        <button id="btn" class="btn add">add</button>
+                  </div>
+            </div>
+            <div class="main-container" id="tasks_container">
+
+            </div>
+            <div class="footer">
+                  <span>You have 4 pending tasks</span>
+                  <button id="btn_clear" class="btn clear">clear all</button>
+            </div>
+      </div>
+      
+
+      <script src="./index.js"></script>
+</body>
+</html>
