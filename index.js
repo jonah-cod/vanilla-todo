@@ -64,3 +64,7 @@ function deleteTask(id) {
       let buttonParent = document.getElementById(id).parentNode;
       container.removeChild(buttonParent)
 }
+
+// remaining functionalities
+// marking todo complete
+// persisting the added task to storage

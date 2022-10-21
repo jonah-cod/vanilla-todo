@@ -18,7 +18,7 @@ body{
 }
 .btn{
       padding: 8px 10px;
-      background-color: rgb(84, 29, 185);
+      background-color: rgb(10, 76, 130);
       outline: none;
       border: none;
       border-radius: 5px;
@@ -49,7 +49,7 @@ body{
 }
 
 .complete{
-      background-color: aquamarine;
+      background-color: aqua;
 }
 .task span{
       margin: 0 5px;
